@@ -1,6 +1,6 @@
 {
-  "name": "react-native-progress",
-  "version": "5.0.1",
+  "name": "@react-native-oh-tpl/react-native-progress",
+  "version": "5.0.1-0.0.1",
   "description": "Progress indicators and spinners for React Native using ReactART",
   "main": "index.js",
   "scripts": {
@@ -39,6 +39,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@react-native-oh-tpl/react-native-svg": "^13.14.0-0.0.10",
     "babel-eslint": "^10.0.1",
     "eslint": "5.3.0",
     "eslint-config-airbnb": "17.1.0",
@@ -47,14 +48,13 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.11.0",
-    "prettier": "^1.16.4",
-    "react-native-svg": "^12.1.1"
+    "prettier": "^1.16.4"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "react-native-svg": "*"
+    "@react-native-oh-tpl/react-native-svg": "*"
   },
   "typings": "index.d.ts"
 }
