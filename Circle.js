@@ -154,7 +154,7 @@ export class ProgressCircle extends Component {
           )}
           {!indeterminate ? (
             <Shape
-              fill={Platform.OS === 'harmony' ? 'none' : fill}
+              fill={fill === undefined && Platform.OS === 'harmony' ? 'none' : fill}
               radius={radius}
               offset={offset}
               startAngle={0}
