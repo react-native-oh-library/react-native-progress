@@ -140,7 +140,7 @@ export class ProgressCircle extends Component {
         >
           {unfilledColor && progressValue !== 1 ? (
             <Shape
-              fill={fill}
+            fill={fill === undefined && Platform.OS === 'harmony' ? 'none' : fill}
               radius={radius}
               offset={offset}
               startAngle={angle}
@@ -169,7 +169,7 @@ export class ProgressCircle extends Component {
           )}
           {border ? (
             <Arc
-              fill={fill}
+            fill={fill === undefined && Platform.OS === 'harmony' ? 'none' : fill}
               radius={size / 2}
               startAngle={0}
               endAngle={(indeterminate ? endAngle * 2 : 2) * Math.PI}
