@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-progress",
+        "License": "MIT License",
+        "License File": "https://github.com/oblador/react-native-progress/blob/master/LICENSE",
+        "Version Number": "5.0.1",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/oblador/react-native-progress",
+        "Description": "Progress indicators and spinners for React Native using ReactART"
+    }
+]
